@@ -111,7 +111,8 @@ var mapContainer1 = document.getElementById('map1'), // 지도를 표시할 div
         	{
                 content: '<div id="label5">경기도 평택시 송탄동 하리 마을<br>송 양의 거처</div>',
 		        latlng: new daum.maps.LatLng(37.053477, 127.105600)
-		    }, ]
+		    },
+      ]
 
     for (var i = 0; i < positions.length; i ++) {
 		    // 마커를 생성합니다
@@ -145,51 +146,6 @@ var mapContainer1 = document.getElementById('map1'), // 지도를 표시할 div
 		        infowindow.close();
 		    };
 		}
-
-    // 지도에 표시할 원을 생성합니다
-var circle1 = new kakao.maps.Circle({
-    center : new kakao.maps.LatLng(37.069475, 127.067512),  // 원의 중심좌표 입니다
-    radius: 1700, // 미터 단위의 원의 반지름입니다
-    strokeWeight: 0, // 선의 두께입니다
-    strokeColor: '#ff9999', // 선의 색깔입니다
-    strokeOpacity: 1, // 선의 불투명도 입니다 1에서 0 사이의 값이며 0에 가까울수록 투명합니다
-    strokeStyle: 'linear', // 선의 스타일 입니다
-    fillColor: 'white', // 채우기 색깔입니다
-    fillOpacity: 0.4  // 채우기 불투명도 입니다
-});
-
-// 지도에 원을 표시합니다
-circle1.setMap(map1);
-
-// 지도에 표시할 원을 생성합니다
-var circle2 = new kakao.maps.Circle({
-    center : new kakao.maps.LatLng(37.057611, 127.054928),  // 원의 중심좌표 입니다
-    radius: 5400, // 미터 단위의 원의 반지름입니다
-    strokeWeight: 0, // 선의 두께입니다
-    strokeColor: '#9999ff', // 선의 색깔입니다
-    strokeOpacity: 1, // 선의 불투명도 입니다 1에서 0 사이의 값이며 0에 가까울수록 투명합니다
-    strokeStyle: 'linear', // 선의 스타일 입니다
-    fillColor: 'white', // 채우기 색깔입니다
-    fillOpacity: 0.4  // 채우기 불투명도 입니다
-});
-
-// 지도에 원을 표시합니다
-circle2.setMap(map1);
-
-// 지도에 표시할 원을 생성합니다
-var circle3 = new kakao.maps.Circle({
-    center : new kakao.maps.LatLng(37.055975, 127.115635),  // 원의 중심좌표 입니다
-    radius: 935, // 미터 단위의 원의 반지름입니다
-    strokeWeight: 0, // 선의 두께입니다
-    strokeColor: '#ccffcc', // 선의 색깔입니다
-    strokeOpacity: 1, // 선의 불투명도 입니다 1에서 0 사이의 값이며 0에 가까울수록 투명합니다
-    strokeStyle: 'linear', // 선의 스타일 입니다
-    fillColor: 'white', // 채우기 색깔입니다
-    fillOpacity: 0.4  // 채우기 불투명도 입니다
-});
-
-// 지도에 원을 표시합니다
-circle3.setMap(map1);
 
     	// 선을 구성하는 좌표 배열입니다. 이 좌표들을 이어서 선을 표시합니다
 
@@ -283,6 +239,51 @@ var customOverlay3 = new kakao.maps.CustomOverlay({
 customOverlay.setMap(map1);
 customOverlay2.setMap(map1);
 customOverlay3.setMap(map1);
+
+// 지도에 표시할 원을 생성합니다
+var circle1 = new kakao.maps.Circle({
+center : new kakao.maps.LatLng(37.069475, 127.067512),  // 원의 중심좌표 입니다
+radius: 1700, // 미터 단위의 원의 반지름입니다
+strokeWeight: 0, // 선의 두께입니다
+strokeColor: '#ff9999', // 선의 색깔입니다
+strokeOpacity: 1, // 선의 불투명도 입니다 1에서 0 사이의 값이며 0에 가까울수록 투명합니다
+strokeStyle: 'linear', // 선의 스타일 입니다
+fillColor: 'white', // 채우기 색깔입니다
+fillOpacity: 0.4  // 채우기 불투명도 입니다
+});
+
+// 지도에 원을 표시합니다
+circle1.setMap(map1);
+
+// 지도에 표시할 원을 생성합니다
+var circle2 = new kakao.maps.Circle({
+center : new kakao.maps.LatLng(37.057611, 127.054928),  // 원의 중심좌표 입니다
+radius: 5400, // 미터 단위의 원의 반지름입니다
+strokeWeight: 0, // 선의 두께입니다
+strokeColor: '#9999ff', // 선의 색깔입니다
+strokeOpacity: 1, // 선의 불투명도 입니다 1에서 0 사이의 값이며 0에 가까울수록 투명합니다
+strokeStyle: 'linear', // 선의 스타일 입니다
+fillColor: 'white', // 채우기 색깔입니다
+fillOpacity: 0.4  // 채우기 불투명도 입니다
+});
+
+// 지도에 원을 표시합니다
+circle2.setMap(map1);
+
+// 지도에 표시할 원을 생성합니다
+var circle3 = new kakao.maps.Circle({
+center : new kakao.maps.LatLng(37.055975, 127.115635),  // 원의 중심좌표 입니다
+radius: 935, // 미터 단위의 원의 반지름입니다
+strokeWeight: 0, // 선의 두께입니다
+strokeColor: '#ccffcc', // 선의 색깔입니다
+strokeOpacity: 1, // 선의 불투명도 입니다 1에서 0 사이의 값이며 0에 가까울수록 투명합니다
+strokeStyle: 'linear', // 선의 스타일 입니다
+fillColor: 'white', // 채우기 색깔입니다
+fillOpacity: 0.4  // 채우기 불투명도 입니다
+});
+
+// 지도에 원을 표시합니다
+circle3.setMap(map1);
 </script>
 </body>
 </html>
