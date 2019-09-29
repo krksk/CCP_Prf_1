@@ -1,0 +1,99 @@
+/*Main Style*/
+
+body { background-color: #111111; margin-top: -60px;}
+@font-face {font-family:'minimalhard2'; src:url(source/mh2_.ttf) format('truetype');}
+
+#logo_type{top:20px; left:4%; z-index: 3; position: fixed;}
+#logoSpread{font-family: "minimalhard2"; font-weight: bolder; font-size: 1.0vw; position: fixed; color: white; z-index: 3; top: 25px; padding: 0.1vw 2vw 0.1vw 0.1vw; opacity: 0; left: 6%; visibility: hidden; transition: all 0.15s ease-in; width:400px; }
+#logo_type:hover #logoSpread {opacity: 1; left: 7%; visibility: visible;}
+
+#nav_menu{position: fixed; margin-top: 84px;}
+#nav_menu {margin-left: 71%; z-index: 3;}
+#nav_menu tr {color:white;}
+#nav_menu tr th {font-family: "minimalhard2"; font-weight: lighter; font-size: 1.0vw; padding: 0.1vw 2vw 0.1vw 0.1vw;}
+svg {margin-top: 60px; position: fixed; z-index: 2; left:-8px;}
+
+#nav_menu tr > #menu1:hover #sub-menu {opacity: 1; visibility: visible;}
+#sub-menu {position: absolute; background: #222222; opacity: 0; visibility: hidden; transition: all 0.15s ease-in; font-family: "Noto Serif KR", serif; font-size: 0.8vw;}
+#sub-menu > li {padding: 20px 25px; border-bottom: 1px solid #222222;}
+#sub-menu > li >  a {color: rgba(255,255,255,0.6); text-decoration: none;}
+
+#footer{font-family: "Noto Serif KR", serif; display: block; font-size:14px; color: white; top:5000px; width: 600px; height: 80px; margin:auto; position: relative; text-align: center;}
+
+#monitor {top: 25px; width: 100px; height: 40px; background: red; position: fixed; right: 0px; line-height: 40px; color: white; z-index: 5; }
+
+
+
+/*navigation menu*/
+
+	#introduce{transition: all 1s;}
+	#develop{transition: all 1s;}
+	#analysis{transition: all 1s;}
+	#doubt{transition: all 1s;}
+	#now{transition: all 1s;}
+	#lft_nav_menu{position: fixed; margin-top: 198px;}
+	#lft_nav_menu ul {color:white;}
+	#lft_nav_menu ul li {font-family: "Noto Serif KR", serif; font-size:16px;  border-bottom: 0.1px solid #c0c0c0; padding: 5px 0px 5px 60px; margin: 80px 50px 0px -45px;}
+	#topb{position: fixed; margin: auto; width: 50px; height: 50px; left:91%; top:88%;}
+
+
+
+/*inroduce*/
+
+#entry{font-family: "Noto Serif KR", serif; font-size:40px; color: #cccccc; top:480px; width: 600px; height: 80px; margin:auto; position: relative; text-align: center; filter: blur(0.1px); animation: animate 6s linear both;}
+  @keyframes animate {
+    0% {opacity: 0.97; filter: blur(0.1px);}
+    5% {opacity: 0.95; filter: blur(0.2px);}
+    10% {opacity: 0.9; filter: blur(0.2px);}
+    100% {opacity: 0.6;filter: blur(4px);}}
+
+#title{font-family: "Noto Serif KR", serif; font-size:1.5vw; color: #cccccc; overflow:hidden; top:1308px; width: 20vw; height: 2.5vw; margin:auto; position: relative; text-align: center; border-bottom: 0.5px solid gray; animation: title_move 1s linear forwards paused;}
+  @keyframes title_move {
+    from {width: 0;}
+    to {width: 20vw;}}
+
+#a1{font-family: "Noto Serif KR", serif; font-size:0.7vw; color: #cccccc; top:1490px; width: 540px; height: 24px; margin:auto; left: 38.5%; position: absolute; text-align: left; overflow: hidden;  white-space: nowrap; border-right: .15em solid #fff; animation: typing 1.5s 1.5s steps(40, end)both paused;}
+#a2{font-family: "Noto Serif KR", serif; font-size:0.7vw; color: #cccccc; top:1525px; width: 600px; height: 24px; margin:auto; left: 38.5%; position: absolute; text-align: left; overflow: hidden; white-space: nowrap; border-right: .15em solid #fff; animation: typing2 1.5s 3.2s steps(40, end) both paused;}
+#a3{font-family: "Noto Serif KR", serif; font-size:0.7vw; color: #cccccc; top:1560px; width: 600px; height: 24px; margin:auto; left: 38.5%; position: absolute; text-align: left; overflow: hidden;  white-space: nowrap; border-right: .15em solid #fff; animation: typing3 1.5s 5.1s steps(40, end)both paused;}
+#a4{font-family: "Noto Serif KR", serif; font-size:0.7vw; color: #cccccc; top:1595px; width: 400px; height: 24px; margin:auto; left: 38.5%; position: absolute; text-align: left; overflow: hidden;  white-space: nowrap; border-right: .15em solid #fff; animation: typing4 1.5s 6.85s steps(40, end) both paused, blink-caret .75s 5.35s step-end infinite both;}
+  @keyframes typing {
+    from {width: 0;}
+    to {width: 32em; border-right: 0em;}}
+  @keyframes typing2 {
+    from {width: 0; border-right: 0em;}
+    to {width: 35.8em; border-right: 0em;}}
+  @keyframes typing3 {
+    from {width: 0; border-right: 0em;}
+    to {width: 33.3em; border-right: 0em;}}
+  @keyframes typing4 {
+    from {width: 0; border-right: 0em;}
+    to {width: 26em;}}
+  @keyframes blink-caret {
+    from, to {border-color: #cccccc}
+    50% {border-color: #000;}}
+
+#field{display: block; width: 3000px; overflow: hidden; height: 427px; left: 0px; top: 1155px; position: relative; transition: all 1s; animation: move 25s linear forwards paused; z-index: -1; white-space: normal;}
+  @keyframes move{
+		0%{left: 0px;}
+		100%{left: -800px;}}
+
+
+
+/*Unfold*/
+
+#unfold{font-family: "Noto Serif KR", serif; font-size:1.5vw; color: #cccccc; top:2000px; width: 8vw; height: 2.5vw; margin:auto; left: 24%; position: absolute; text-align: left; border-bottom: 0.5px solid gray;}
+
+
+
+/*Profiling*/
+
+#profiling{font-family: "Noto Serif KR", serif; font-size:1.5vw; color: #cccccc; top:2995px; width: 12vw; height: 2.5vw; margin:auto; left: 24%; position: absolute; text-align: left; border-bottom: 0.5px solid gray;}
+
+#map1{position:relative; display: block; margin: auto; width:1600px; height:900px; top:1020px; /*animation: map_spread 2s linear forwards paused;*/}
+#mapSub{font-family: "Noto Serif KR", serif; font-size:0.7vw; color: #cccccc; top:1035px; width: 600px; height: 80px; margin:auto; position: relative; text-align: center;}
+.label {font-family: "Noto Serif KR", serif; background-color:white; font-size:12px; padding:5px;}
+#label2 {font-family: "Noto Serif KR", serif; background-color:white; font-size:12px; padding:5px;}
+/*@keyframes map_spread {
+	0%{width: 0;}
+	100%{width: 1300px;}
+}*/
