@@ -11,7 +11,7 @@ body { background-color: #111111; margin-top: -60px;}
 #nav_menu {margin-left: 71%; z-index: 3;}
 #nav_menu tr {color:white;}
 #nav_menu tr th {font-family: "minimalhard2"; font-weight: lighter; font-size: 1.0vw; padding: 0.1vw 2vw 0.1vw 0.1vw;}
-svg {margin-top: 60px; position: fixed; z-index: 2; left:-8px;}
+svg {top: 0px; position: fixed; z-index: 2; left:-8px;}
 
 #nav_menu tr > #menu1:hover #sub-menu {opacity: 1; visibility: visible;}
 #sub-menu {position: absolute; background: #222222; opacity: 0; visibility: hidden; transition: all 0.15s ease-in; font-family: "Noto Serif KR", serif; font-size: 0.8vw;}
@@ -89,14 +89,10 @@ svg {margin-top: 60px; position: fixed; z-index: 2; left:-8px;}
 
 #profiling{font-family: "Noto Serif KR", serif; font-size:1.5vw; color: #cccccc; top:2995px; width: 12vw; height: 2.5vw; margin:auto; left: 24%; position: absolute; text-align: left; border-bottom: 0.5px solid gray;}
 
-#map1{position:relative; display: block; margin: auto; width:1500px; height:900px; top:1600px; /*animation: map_spread 2s linear forwards paused;*/}
+#map1{position:relative; display: block; margin: auto; width:1300px; height:900px; top:1600px;}
 #mapSub{font-family: "Noto Serif KR", serif; font-size:0.7vw; color: #cccccc; top:1615px; width: 600px; height: 80px; margin:auto; position: relative; text-align: center;}
 .label {font-family: "Noto Serif KR", serif; background-color:white; font-size:12px; padding:5px;}
 #label2 {font-family: "Noto Serif KR", serif; width:320px; background-color:white; font-size:12px; padding:10px;}
 #label3 {font-family: "Noto Serif KR", serif; width:240px; background-color:white; font-size:12px; padding:10px;}
 #label4 {font-family: "Noto Serif KR", serif; width:215px; background-color:white; font-size:12px; padding:10px;}
 #label5 {font-family: "Noto Serif KR", serif; width:170px; background-color:white; font-size:12px; padding:10px;}
-/*@keyframes map_spread {
-	0%{width: 0;}
-	100%{width: 1300px;}
-}*/
