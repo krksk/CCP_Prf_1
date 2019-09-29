@@ -18,7 +18,7 @@ svg {top: 0px; position: fixed; z-index: 2; left:-8px;}
 #sub-menu > li {padding: 20px 25px; border-bottom: 1px solid #222222;}
 #sub-menu > li >  a {color: rgba(255,255,255,0.6); text-decoration: none;}
 
-#footer{font-family: "Noto Serif KR", serif; display: block; font-size:14px; color: white; top:5000px; width: 600px; height: 80px; margin:auto; position: relative; text-align: center;}
+#footer{font-family: "Noto Serif KR", serif; display: block; font-size:14px; color: white; top:7000px; width: 600px; height: 80px; margin:auto; position: relative; text-align: center;}
 
 #monitor {top: 25px; width: 100px; height: 40px; background: red; position: fixed; right: 0px; line-height: 40px; color: white; z-index: 5; }
 
@@ -89,10 +89,13 @@ svg {top: 0px; position: fixed; z-index: 2; left:-8px;}
 
 #profiling{font-family: "Noto Serif KR", serif; font-size:1.5vw; color: #cccccc; top:2995px; width: 12vw; height: 2.5vw; margin:auto; left: 24%; position: absolute; text-align: left; border-bottom: 0.5px solid gray;}
 
-#map1{position:relative; display: block; margin: auto; width:1300px; height:900px; top:1600px;}
+#map1{position:relative; display: block; margin: auto; width:1300px; height:900px; top:1600px; z-index: -1;}
 #mapSub{font-family: "Noto Serif KR", serif; font-size:0.7vw; color: #cccccc; top:1615px; width: 600px; height: 80px; margin:auto; position: relative; text-align: center;}
 .label {font-family: "Noto Serif KR", serif; background-color:white; font-size:12px; padding:5px;}
 #label2 {font-family: "Noto Serif KR", serif; width:320px; background-color:white; font-size:12px; padding:10px;}
 #label3 {font-family: "Noto Serif KR", serif; width:240px; background-color:white; font-size:12px; padding:10px;}
 #label4 {font-family: "Noto Serif KR", serif; width:215px; background-color:white; font-size:12px; padding:10px;}
 #label5 {font-family: "Noto Serif KR", serif; width:170px; background-color:white; font-size:12px; padding:10px;}
+
+#daumFlashTarget{position:relative; display: block; margin: auto; width:1300px; height:750px; top:1650px;}
+#roadview_sub{font-family: "Noto Serif KR", serif; font-size:0.7vw; color: #cccccc; top:1665px; width: 600px; height: 80px; margin:auto; position: relative; text-align: center;}
