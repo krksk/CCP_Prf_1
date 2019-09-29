@@ -89,10 +89,13 @@ svg {margin-top: 60px; position: fixed; z-index: 2; left:-8px;}
 
 #profiling{font-family: "Noto Serif KR", serif; font-size:1.5vw; color: #cccccc; top:2995px; width: 12vw; height: 2.5vw; margin:auto; left: 24%; position: absolute; text-align: left; border-bottom: 0.5px solid gray;}
 
-#map1{position:relative; display: block; margin: auto; width:1600px; height:900px; top:1020px; /*animation: map_spread 2s linear forwards paused;*/}
+#map1{position:relative; display: block; margin: auto; width:1300px; height:900px; top:1600px; /*animation: map_spread 2s linear forwards paused;*/}
 #mapSub{font-family: "Noto Serif KR", serif; font-size:0.7vw; color: #cccccc; top:1035px; width: 600px; height: 80px; margin:auto; position: relative; text-align: center;}
 .label {font-family: "Noto Serif KR", serif; background-color:white; font-size:12px; padding:5px;}
-#label2 {font-family: "Noto Serif KR", serif; background-color:white; font-size:12px; padding:5px;}
+#label2 {font-family: "Noto Serif KR", serif; width:320px; background-color:white; font-size:12px; padding:10px;}
+#label3 {font-family: "Noto Serif KR", serif; width:240px; background-color:white; font-size:12px; padding:10px;}
+#label4 {font-family: "Noto Serif KR", serif; width:215px; background-color:white; font-size:12px; padding:10px;}
+#label5 {font-family: "Noto Serif KR", serif; width:170px; background-color:white; font-size:12px; padding:10px;}
 /*@keyframes map_spread {
 	0%{width: 0;}
 	100%{width: 1300px;}
