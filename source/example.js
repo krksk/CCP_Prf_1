@@ -8,5 +8,9 @@ window.onscroll = function(){
     a4.style.animationPlayState = "running";
     field.style.animationPlayState = "running";
     }
+    if(t>4300){
+    dP_headline.style.animationPlayState = "running";
+    dP_headline_picture.style.animationPlayState = "running";
+    }
     monitor.innerHTML = t + "px";
     }
