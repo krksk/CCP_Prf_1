@@ -1,4 +1,4 @@
-/*Main Style*/
+/* Main Style */
 
 body { background-color: #111111; margin-top: -60px;}
 @font-face {font-family:'minimalhard2'; src:url(source/mh2_.ttf) format('truetype');}
@@ -18,14 +18,14 @@ svg {top: 0px; position: fixed; z-index: 2; left:-8px;}
 #sub-menu > li {padding: 20px 25px; border-bottom: 1px solid #222222;}
 #sub-menu > li >  a {color: rgba(255,255,255,0.6); text-decoration: none;}
 
-#footer{font-family: "Noto Serif KR", serif; display: block; font-size:14px; color: white; top:7000px; width: 600px; height: 80px; margin:auto; position: relative; text-align: center;}
+#footer{font-family: "Noto Serif KR", serif; display: block; font-size:14px; color: white; top:16500px; width: 600px; height: 80px; margin:auto; position: relative; text-align: center;}
 
 #monitor {top: 25px; width: 100px; height: 40px; background: red; position: fixed; right: 0px; line-height: 40px; color: white; z-index: 5; }
 
 
 
 
-/*navigation menu*/
+/* navigation menu */
 
 	#introduce{transition: all 1s;}
 	#develop{transition: all 1s;}
@@ -40,7 +40,7 @@ svg {top: 0px; position: fixed; z-index: 2; left:-8px;}
 
 
 
-/*inroduce*/
+/* Inroduce */
 
 #entry{font-family: "Noto Serif KR", serif; font-size:40px; color: #cccccc; top:480px; width: 600px; height: 80px; margin:auto; position: relative; text-align: center; filter: blur(0.1px); animation: animate 6s linear both;}
   @keyframes animate {
@@ -82,37 +82,107 @@ svg {top: 0px; position: fixed; z-index: 2; left:-8px;}
 
 
 
-/*Unfold*/
+/* Unfold */
 
-#unfold{font-family: "Noto Serif KR", serif; font-size:1.5vw; color: #cccccc; top:2000px; width: 8vw; height: 2.5vw; margin:auto; left: 24%; position: absolute; text-align: left; border-bottom: 0.5px solid gray;}
-
-
+#unfold{font-family: "Noto Serif KR", serif; font-size:1.5vw; color: #cccccc; top:2000px; width: 8vw; height: 2.5vw; margin:auto; left: 20%; position: absolute; text-align: left; border-bottom: 0.5px solid gray;}
 
 
-/*Profiling*/
 
-#profiling{font-family: "Noto Serif KR", serif; font-size:1.5vw; color: #cccccc; top:2995px; width: 12vw; height: 2.5vw; margin:auto; left: 24%; position: absolute; text-align: left; border-bottom: 0.5px solid gray;}
 
-#map1{position:relative; display: block; margin: auto; width:1300px; height:900px; top:1600px; z-index: -1;}
-#mapSub{font-family: "Noto Serif KR", serif; font-size:0.7vw; color: #cccccc; top:1615px; width: 600px; height: 80px; margin:auto; position: relative; text-align: center;}
+/* Profiling */
+
+#profiling{font-family: "Noto Serif KR", serif; font-size:1.5vw; color: #cccccc; top:3095px; width: 12vw; height: 2.5vw; margin:auto; left: 20%; position: absolute; text-align: left; border-bottom: 0.5px solid gray;}
+
+#map1{position:relative; display: block; margin: auto; width:1300px; height:900px; top:1700px;}
+#mapSub{font-family: "Noto Serif KR", serif; font-size:0.7vw; color: #cccccc; top:1715px; width: 600px; height: 80px; margin:auto; position: relative; text-align: center;}
 .label {font-family: "Noto Serif KR", serif; background-color:white; font-size:12px; padding:5px;}
 #label2 {font-family: "Noto Serif KR", serif; width:320px; background-color:white; font-size:12px; padding:10px;}
 #label3 {font-family: "Noto Serif KR", serif; width:240px; background-color:white; font-size:12px; padding:10px;}
 #label4 {font-family: "Noto Serif KR", serif; width:215px; background-color:white; font-size:12px; padding:10px;}
 #label5 {font-family: "Noto Serif KR", serif; width:170px; background-color:white; font-size:12px; padding:10px;}
 
-#daumFlashTarget{position:relative; display: block; margin: auto; width:1300px; height:750px; top:1650px;}
-#roadview_sub{font-family: "Noto Serif KR", serif; font-size:0.7vw; color: #cccccc; top:1665px; width: 600px; height: 80px; margin:auto; position: relative; text-align: center;}
+#daumFlashTarget{position:relative; display: block; margin: auto; width:1300px; height:750px; top:1750px;}
+#roadview_sub{font-family: "Noto Serif KR", serif; font-size:0.7vw; color: #cccccc; top:1765px; width: 600px; height: 80px; margin:auto; position: relative; text-align: center;}
 
-#dP_arrange{font-family: "Noto Serif KR", serif; font-size:1.1vw; color: #cccccc; top:5090px; width: 5.5vw; height: 2.0vw; margin:auto; left: 26%; position: absolute; text-align: left; border-bottom: 0.5px solid gray;}
-#dP_headline{font-family: "Noto Serif KR", serif; font-size:3.5vw; color: #cccccc; top: 5170px; left:27%; margin:auto; height: 8.2vw; position: absolute; text-align: left; transition: all 0.1s; overflow: hidden; white-space: nowrap; animation: typing5 2s steps(21, end)both paused;}
+#dP_missing{font-family: "Noto Serif KR", serif; font-size:1.1vw; color: #cccccc; top:5190px; width: 5.5vw; height: 2.0vw; margin:auto; left: 26%; position: absolute; text-align: left; border-bottom: 0.5px solid gray;}
+#dP_headline{font-family: "Noto Serif KR", serif; font-size:3.5vw; color: #cccccc; top: 5270px; left:27%; margin:auto; height: 5.2vw; position: absolute; text-align: left; border-bottom: 0.5px solid gray; transition: all 0.1s; overflow: hidden; white-space: nowrap; animation: typing5 2s steps(21, end)both paused;}
 	@keyframes typing5 {
     from {width: 0;}
-    to {width: 13.5em;}}
-#dP_headline_picture{display: block; top:2050px; width: 1000px; height: 450px; position: relative; margin: auto; opacity: 0; transition: all 0.1s; animation: move2 1s linear forwards paused;}
+    to {width: 13.2em;}}
+#dP_headline_picture{display: block; top:2150px; width: 1000px; height: 480px; position: relative; margin: auto; opacity: 0; transition: all 0.1s; animation: move2 1s linear forwards paused;}
 	@keyframes move2 {
     from {opacity:0;}
     to {opacity:1;}}
-#dP_headline_picture_sub{font-family: "Noto Serif KR", serif; font-size:0.8vw; left: 25%; color: #cccccc; top:5820px; width: 50vw; height: 40px; margin:auto; position: absolute; text-align: center;}
-#dP_headline_contents_1{font-family: "Noto Serif KR", serif; font-size:1vw; line-height:2.5; left: 27.5%; color: #cccccc; top:5920px; width: 22vw; height: 80px; margin:auto; position: absolute; text-align: left;}
-#dP_headline_contents_2{font-family: "Noto Serif KR", serif; font-size:1vw; line-height:2.5; left: 51.5%; color: #cccccc; top:5920px; width: 23vw; height: 80px; margin:auto; position: absolute; text-align: left;}
+#dP_headline_picture_sub{font-family: "Noto Serif KR", serif; font-size:0.8vw; left: 25%; color: #cccccc; top:5955px; width: 50vw; height: 40px; margin:auto; position: absolute; text-align: center;}
+#dP_headline_contents_1{font-family: "Noto Serif KR", serif; font-size:1vw; line-height:2.5; left: 27.5%; color: #cccccc; top:6010px; width: 22vw; height: 80px; margin:auto; position: absolute; text-align: left;}
+#dP_headline_contents_2{font-family: "Noto Serif KR", serif; font-size:1vw; line-height:2.5; left: 51.5%; color: #cccccc; top:6010px; width: 23vw; height: 80px; margin:auto; position: absolute; text-align: left;}
+
+#dP_police{font-family: "Noto Serif KR", serif; font-size:1.1vw; color: #cccccc; top:6410px; width: 6.5vw; height: 2.0vw; margin:auto; left: 22%; position: absolute; text-align: left; border-bottom: 0.5px solid gray;}
+#dP_police_contents{font-family: "Noto Serif KR", serif; font-size:0.75vw; color: #cccccc; top:6490px; width: 28vw; margin:auto; left: 23%; position: absolute; text-align: left; line-height:2.2;}
+#dP_police_picture{position:absolute; width:480px; left: 58%; height:480px; top:6450px;}
+
+#dP_identity{font-family: "Noto Serif KR", serif; font-size:1.1vw; color: #cccccc; top:7050px; width: 6.5vw; height: 2.0vw; margin:auto; left: 22%; position: absolute; text-align: left; border-bottom: 0.5px solid gray;}
+#dP_identity_contents{font-family: "Noto Serif KR", serif; font-size:0.75vw; color: #cccccc; top:7130px; width: 28vw; margin:auto; left: 23%; position: absolute; text-align: left; line-height:2.2;}
+#dP_identity_picture{position:absolute; width:480px; left: 58%; height:480px; top:7100px;}
+
+#dP_relation{font-family: "Noto Serif KR", serif; font-size:1.1vw; color: #cccccc; top:7800px; width: 6.5vw; height: 2.0vw; margin:auto; left: 22%; position: absolute; text-align: left; border-bottom: 0.5px solid gray;}
+#dP_headline_2{font-family: "Noto Serif KR", serif; font-size:3.5vw; color: #cccccc; top: 7890px; left:22.6%; margin:auto; height: 5.2vw; position: absolute; text-align: left; transition: all 0.1s; overflow: hidden; white-space: nowrap; animation: typing6 2s steps(21, end)both paused;}
+	@keyframes typing6 {
+    from {width: 0;}
+    to {width: 15.8em;}}
+
+#map2{position:relative; display: block; margin: auto; width:1300px; height:900px; top:4280px;}
+#mapSub2{font-family: "Noto Serif KR", serif; font-size:0.7vw; color: #cccccc; top:4295px; width: 600px; height: 80px; margin:auto; position: relative; text-align: center;}
+#label6 {font-family: "Noto Serif KR", serif; width:70px; background-color:white; font-size:12px; padding:10px;}
+#label7 {font-family: "Noto Serif KR", serif; width:210px; background-color:white; font-size:12px; padding:10px;}
+#label8 {font-family: "Noto Serif KR", serif; width:188px; background-color:white; font-size:12px; padding:10px;}
+#label9 {font-family: "Noto Serif KR", serif; width:70px; background-color:white; font-size:12px; padding:10px;}
+
+#dP_incident_2{font-family: "Noto Serif KR", serif; font-size:1.1vw; color: #cccccc; top:9160px; width: 11.5vw; height: 2.0vw; margin:auto; left: 22%; position: absolute; text-align: left; border-bottom: 0.5px solid gray;}
+#dP_incident_2_contents{font-family: "Noto Serif KR", serif; font-size:0.75vw; color: #cccccc; top:9245px; width: 28vw; margin:auto; left: 23%; position: absolute; text-align: left; line-height:2.2;}
+#dP_incident_2_picture{position:absolute; width:750px; left: 52%; height:450px; top:9110px;}
+
+#dP_ending{font-family: "Noto Serif KR", serif; font-size:1.1vw; color: #cccccc; top:4860px; width: 15vw; height: 2.0vw; margin:auto; position: relative; text-align: center; border-bottom: 0.5px solid gray;}
+#dP_ending_contents{font-family: "Noto Serif KR", serif; font-size:0.85vw; color: #cccccc; top:4880px; width: 35vw; margin:auto; position: relative; text-align: left; line-height:2.2;}
+
+
+
+
+/* Suspicion */
+
+#suspicion{font-family: "Noto Serif KR", serif; font-size:1.5vw; color: #cccccc; top:10200px; width: 4vw; height: 2.5vw; margin:auto; left: 20%; position: absolute; text-align: left; border-bottom: 0.5px solid gray;}
+
+#sus_1{font-family: "Noto Serif KR", serif; font-size:1.1vw; color: #cccccc; top:10350px; width: 11.5vw; height: 2.0vw; margin:auto; left: 22%; position: absolute; text-align: left; border-bottom: 0.5px solid gray;}
+#sus_1_contents{font-family: "Noto Serif KR", serif; font-size:0.75vw; color: #cccccc; top:10430px; width: 28vw; margin:auto; left: 23%; position: absolute; text-align: left; line-height:2.2;}
+#sus_1_picture{position:absolute; width:480px; left: 60%; height:480px; top:10280px;}
+
+#sus_2{font-family: "Noto Serif KR", serif; font-size:1.1vw; color: #cccccc; top:10850px; width: 10.5vw; height: 2.0vw; margin:auto; left: 22%; position: absolute; text-align: left; border-bottom: 0.5px solid gray;}
+#sus_2_contents{font-family: "Noto Serif KR", serif; font-size:0.75vw; color: #cccccc; top:10940px; width: 28vw; margin:auto; left: 23%; position: absolute; text-align: left; line-height:2.2;}
+#sus_2_picture{position:absolute; width:480px; left: 60%; height:480px; top:10750px;}
+
+#sus_3{font-family: "Noto Serif KR", serif; font-size:1.1vw; color: #cccccc; top:11350px; width: 18vw; height: 2.0vw; margin:auto; left: 22%; position: absolute; text-align: left; border-bottom: 0.5px solid gray;}
+#sus_3_contents{font-family: "Noto Serif KR", serif; font-size:0.75vw; color: #cccccc; top:11440px; width: 28vw; margin:auto; left: 23%; position: absolute; text-align: left; line-height:2.2;}
+#sus_3_picture{position:absolute; width:480px; left: 60%; height:480px; top:11300px;}
+
+
+
+
+/* Ending */
+
+#ending{font-family: "Noto Serif KR", serif; font-size:1.5vw; color: #cccccc; top:12050px; width: 4vw; height: 2.5vw; margin:auto; left: 20%; position: absolute; text-align: left; border-bottom: 0.5px solid gray;}
+
+#end_video{display:block; position:relative; margin:auto; top:7140px; width: 1280px; height: 720px; z-index: -1;}
+#videoSub{font-family: "Noto Serif KR", serif; font-size:0.7vw; color: #cccccc; left: 340px; top:7155px; width: 600px; height: 80px; margin:auto; position: relative; text-align: right;}
+
+#end_headline{font-family: "Noto Serif KR", serif; font-size:3.5vw; color: #cccccc; top: 7350px; margin:auto; height: 5.2vw; position: relative; text-align: center; transition: all 0.1s; animation: opc 10s linear forwards paused;}
+#end_quote_1{position:relative; left: 24%; top:7100px; transition: all 0.1s; animation: opc 10s linear forwards paused;}
+#end_quote_2{position:relative; left: 61.5%; top:7260px; transition: all 0.1s; animation: opc 10s linear forwards paused;}
+	@keyframes opc {
+    from {opacity: 0;}
+    to {opacity: 0.75;}}
+
+#end_contents{font-family: "Noto Serif KR", serif; font-size:0.75vw; color: #cccccc; top:7420px; width: 30vw; margin:auto; position: relative; text-align: left; line-height:2.2;}
+
+#end_final{font-family: "Noto Serif KR", serif; display: block; width: 1100px; height: 1120px; position: relative; background-color: gray; opacity: 0.5; margin: auto; top:7700px; line-height:2.2; text-align: center; font-size: 22px; color: white;}
+
+#end_report{font-family: "Noto Serif KR", serif; font-size:0.7vw; color: #cccccc; top:7900px; width: 20vw; margin:auto; position: relative; text-align: center; line-height:2.2;}
