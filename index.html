@@ -14,7 +14,7 @@
 <script src="source/slider.js"></script>
 </head>
 <body>
-  <a href="index.html">
+  <a href="https://krksk.github.io/CCP_Main/">
     <div id="logo_type">
       <div id="logoSpread">Cold Case Profiling
       </div>
@@ -278,7 +278,8 @@ var mapContainer1 = document.getElementById('map1'), // 지도를 표시할 div
 		    // 마커를 생성합니다
 		    var marker = new daum.maps.Marker({
 		        map: map1, // 마커를 표시할 지도
-		        position: positions[i].latlng // 마커의 위치
+		        position: positions[i].latlng, // 마커의 위치
+    			image: markerImage // 마커이미지 설정
 		    });
 
 		    // 마커에 표시할 인포윈도우를 생성합니다
@@ -325,10 +326,10 @@ var circle1 = new kakao.maps.Circle({
     radius: 1700, // 미터 단위의 원의 반지름입니다
     strokeWeight: 1, // 선의 두께입니다
     strokeColor: '#ff9999', // 선의 색깔입니다
-    strokeOpacity: 0, // 선의 불투명도 입니다 1에서 0 사이의 값이며 0에 가까울수록 투명합니다
+    strokeOpacity: 1, // 선의 불투명도 입니다 1에서 0 사이의 값이며 0에 가까울수록 투명합니다
     strokeStyle: 'linear', // 선의 스타일 입니다
-    fillColor: 'black', // 채우기 색깔입니다
-    fillOpacity: 0.3  // 채우기 불투명도 입니다
+    fillColor: 'white', // 채우기 색깔입니다
+    fillOpacity: 0.6  // 채우기 불투명도 입니다
 });
 
 // 지도에 원을 표시합니다
@@ -342,8 +343,8 @@ var circle2 = new kakao.maps.Circle({
     strokeColor: '#9999ff', // 선의 색깔입니다
     strokeOpacity: 0, // 선의 불투명도 입니다 1에서 0 사이의 값이며 0에 가까울수록 투명합니다
     strokeStyle: 'linear', // 선의 스타일 입니다
-    fillColor: 'black', // 채우기 색깔입니다
-    fillOpacity: 0.4  // 채우기 불투명도 입니다
+    fillColor: 'white', // 채우기 색깔입니다
+    fillOpacity: 0.6  // 채우기 불투명도 입니다
 });
 
 // 지도에 원을 표시합니다
@@ -357,12 +358,27 @@ var circle3 = new kakao.maps.Circle({
     strokeColor: '#ccffcc', // 선의 색깔입니다
     strokeOpacity: 0, // 선의 불투명도 입니다 1에서 0 사이의 값이며 0에 가까울수록 투명합니다
     strokeStyle: 'linear', // 선의 스타일 입니다
-    fillColor: 'black', // 채우기 색깔입니다
-    fillOpacity: 0.3  // 채우기 불투명도 입니다
+    fillColor: 'white', // 채우기 색깔입니다
+    fillOpacity: 0.6  // 채우기 불투명도 입니다
 });
 
 // 지도에 원을 표시합니다
 circle3.setMap(map1);
+
+// 지도에 표시할 원을 생성합니다
+var circle7 = new kakao.maps.Circle({
+    center : new kakao.maps.LatLng(37.04589, 127.09713),  // 원의 중심좌표 입니다
+    radius: 20000, // 미터 단위의 원의 반지름입니다
+    fillColor: 'black', // 채우기 색깔입니다
+    fillOpacity: 0.5  // 채우기 불투명도 입니다
+});
+
+// 지도에 원을 표시합니다
+circle7.setMap(map1);
+
+
+
+
 
     	// 선을 구성하는 좌표 배열입니다. 이 좌표들을 이어서 선을 표시합니다
 
@@ -386,7 +402,7 @@ circle3.setMap(map1);
     path: linePath, // 선을 구성하는 좌표배열 입니다
     strokeWeight: 4, // 선의 두께 입니다
     strokeColor: '#ff3333', // 선의 색깔입니다
-    strokeOpacity: 0.75, // 선의 불투명도 입니다 1에서 0 사이의 값이며 0에 가까울수록 투명합니다
+    strokeOpacity: 0.5, // 선의 불투명도 입니다 1에서 0 사이의 값이며 0에 가까울수록 투명합니다
     strokeStyle: 'solid' // 선의 스타일입니다
 	});
 
@@ -395,7 +411,7 @@ circle3.setMap(map1);
     path: linePath2, // 선을 구성하는 좌표배열 입니다
     strokeWeight: 4, // 선의 두께 입니다
     strokeColor: '#ff3333', // 선의 색깔입니다
-    strokeOpacity: 0.8, // 선의 불투명도 입니다 1에서 0 사이의 값이며 0에 가까울수록 투명합니다
+    strokeOpacity: 0.5, // 선의 불투명도 입니다 1에서 0 사이의 값이며 0에 가까울수록 투명합니다
     strokeStyle: 'solid' // 선의 스타일입니다
 	});
 
@@ -404,7 +420,7 @@ circle3.setMap(map1);
     path: linePath3, // 선을 구성하는 좌표배열 입니다
     strokeWeight: 4, // 선의 두께 입니다
     strokeColor: '#ff3333', // 선의 색깔입니다
-    strokeOpacity: 0.8, // 선의 불투명도 입니다 1에서 0 사이의 값이며 0에 가까울수록 투명합니다
+    strokeOpacity: 0.5, // 선의 불투명도 입니다 1에서 0 사이의 값이며 0에 가까울수록 투명합니다
     strokeStyle: 'shortdash' // 선의 스타일입니다
 	});
 
@@ -444,6 +460,16 @@ var customOverlay3 = new kakao.maps.CustomOverlay({
 customOverlay.setMap(map1);
 customOverlay2.setMap(map1);
 customOverlay3.setMap(map1);
+
+var imageSrc = 'source/maker.png', // 마커이미지의 주소입니다
+    imageSize = new kakao.maps.Size(60, 60), // 마커이미지의 크기입니다
+    imageOption = {offset: new kakao.maps.Point(30, 30)}; // 마커이미지의 옵션입니다. 마커의 좌표와 일치시킬 이미지 안에서의 좌표를 설정합니다.
+
+// 마커의 이미지정보를 가지고 있는 마커이미지를 생성합니다
+var markerImage = new kakao.maps.MarkerImage(imageSrc, imageSize, imageOption),
+    markerPosition = new kakao.maps.LatLng(); // 마커가 표시될 위치입니다
+
+marker.setMap(map1);
 
 
 

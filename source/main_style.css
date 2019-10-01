@@ -1,7 +1,6 @@
 /*Main Style*/
 body { background-color: #111111; margin-top: -60px;}
-@font-face {font-family:'minimalhard2'; src:url(source/minimalhard2_.ttf) format('truetype');}
-
+@font-face {font-family: 'MINIMALHARD2'; font-style: normal; font-weight: normal;src: local('MINIMALHARD2'), url('mh2__.woff') format('woff');}
 #logo_type{top:20px; left:4%; z-index: 3; position: fixed;}
 #logoSpread{font-family: "minimalhard2"; font-weight: bolder; font-size: 1.0vw; position: fixed; color: white; z-index: 3; top: 25px; padding: 0.1vw 2vw 0.1vw 0.1vw; opacity: 0; left: 6%; visibility: hidden; transition: all 0.2s ease-in; width:400px; }
 #logo_type:hover #logoSpread {opacity: 1; left: 7%; visibility: visible;}
