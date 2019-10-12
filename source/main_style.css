@@ -111,7 +111,7 @@ svg {top: 0px; position: fixed; z-index: 10; left:-8px;}
 #dP_headline_contents{font-size:22px; line-height:2.2; margin:auto; position: relative; text-align: left;}
 
 #map2{position:relative; display: block; margin: auto; width:46vw; height:27vw;}
-#label6 {font-family: "Noto Serif KR", serif; width:70px; background-color:white; font-size:12px; padding:10px; color: black;}
+#label6 {font-family: "Noto Serif KR", serif; width:90px; background-color:white; font-size:12px; padding:10px; color: black;}
 #label7 {font-family: "Noto Serif KR", serif; width:210px; background-color:white; font-size:12px; padding:10px; color: black;}
 #label8 {font-family: "Noto Serif KR", serif; width:188px; background-color:white; font-size:12px; padding:10px; color: black;}
 #label9 {font-family: "Noto Serif KR", serif; width:70px; background-color:white; font-size:12px; padding:10px; color: black;}
