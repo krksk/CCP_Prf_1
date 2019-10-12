@@ -1,4 +1,4 @@
-﻿/** VARIABLES
+/** VARIABLES
 ===================================*/
 /** RESET AND LAYOUT
 ===================================*/
@@ -6,8 +6,8 @@
   position: relative;
   display: block;
   margin: auto;
-  margin-bottom: 190px;
-  top:1505px;
+  margin-bottom: 150px;
+  top:0px;
   padding: 0;
   *zoom: 1;
   -ms-touch-action: pan-y;
@@ -16,8 +16,8 @@
 .bx-wrapper img {
   /*max-width: 100%;*/
   /*이미지 크기 설정*/
-  width:1200px;
-  height:700px;
+  width:45vw;
+  height:26vw;
   display: block;
 }
 .bxslider {
@@ -35,8 +35,8 @@ ul.bxslider {
 ===================================*/
 .bx-wrapper {
 	/*이미지밖의 껍데기 크기 설정*/
-	width:1200px;
-	height:700px;
+	width:45vw;
+	height:26vw;
   -moz-box-shadow: 0 0 5px #ccc;
   -webkit-box-shadow: 0 0 5px #ccc;
   box-shadow: 0 0 5px #ccc;

@@ -7,6 +7,7 @@
 <link rel="stylesheet" href="source/main_style.css">
 <link href="main_style.css" rel="stylesheet" type="text/css"/>
 <link href="https://fonts.googleapis.com/css?family=Noto+Serif+KR&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Cantata+One&display=swap" rel="stylesheet">
 <script src="source/example.js"></script>
 <link rel="stylesheet" href="css/bxslider.css">
 <script src="js/jquery-1.11.3.js"></script>
@@ -18,7 +19,7 @@
     <div id="logo_type">
       <div id="logoSpread">Cold Case Profiling
       </div>
-      <img src="source/logoType.png" style="width: 1.7vw; height: 1.7vw;">
+      <img src="source/logoType.png" style="width: 50px; height: 40px;">
     </div>
     </a>
   <div id="nav_menu">
@@ -29,7 +30,7 @@
           <ul id="sub-menu">
             <li><a href="https://krksk.github.io/CCP_Prf_1/" aria-label="subemnu">1. 송혜희 양 실종 사건</a></li>
             <li><a href="https://krksk.github.io/CCP_Prf_2/" aria-label="subemnu">2. 부산 아동 연쇄 살인 사건</a></li>
-            <li><a href="#" aria-label="subemnu">3. 사바이 주점 학살 사건</a></li>
+            <li><a href="https://krksk.github.io/CCP_Prf_3/" aria-label="subemnu">3. 사바이 주점 학살 사건</a></li>
           </ul>
         </th>
         <th id="menu2"><a href="https://krksk.github.io/CCP_Report" style="color:white; text-decoration:none;">Report</th></a>
@@ -37,202 +38,208 @@
       </tr>
     </table>
   </div>
-  <svg width="100%">
-	<rect width="100%" height="3.5vw" fill="black"></rect>
+  <svg width="101%">
+	<rect width="100%" height="80px" fill="black"></rect>
   </svg>
   <div id="footer">Copyrightⓒ 2019/All Rights Reserved - KSK</div>
   <div id="monitor"></div>
-  <div id="lft_nav_menu">
-    <ul>
-      <li id="introduce">도입</li>
-      <li id="develop">전개</li>
-      <li id="analysis">분석</li>
-      <li id="doubt">의혹</li>
-      <li id="now">결말</li>
-    </ul>
-  </div>
   <img id="topb" src="source/top.png">
-  <div id="entry">"공부하고 올게요."</div>
-  <div id="title">송혜희 양 실종 사건</div>
-  <div id="a1">1999년 2월 13일 PM 10:00 경 당시 고등학생이던 송혜희(17) 양이 실종된</div>
-  <div id="a2">사건으로 2014년 2월 공소시효가 만료되 현재까지도 <font color=#ff3333;>영구 미제 사건</font>으로 남아있다.</div>
-  <div id="a3">지금도 가끔 ‘실종된 송혜희 좀 찾아주세요!’라는 현수막을 볼 수 있을 정도로</div>
-  <div id="a4">실종자의 아버지는 자신의 딸을 찾는 데에 여념이 없으시다. </div>
-  <img src="source/fieldPicture.jpg" id="field">
-  <div id="unfold">사건 일지</div>
-  <div class="home__slider">
-  	<div class="bxslider">
-  		<div><img src="source/unfold_folder/1.jpg" alt="그림1"></div>
-  		<div><img src="source/unfold_folder/2.jpg" alt="그림2"></div>
-  		<div><img src="source/unfold_folder/3.jpg" alt="그림3"></div>
-  		<div><img src="source/unfold_folder/4.jpg" alt="그림4"></div>
-  		<div><img src="source/unfold_folder/5.jpg" alt="그림5"></div>
-  		<div><img src="source/unfold_folder/6.jpg" alt="그림6"></div>
-  		<div><img src="source/unfold_folder/7.jpg" alt="그림7"></div>
-  		<div><img src="source/unfold_folder/8.jpg" alt="그림8"></div>
-  		<div><img src="source/unfold_folder/9.jpg" alt="그림9"></div>
-  		<div><img src="source/unfold_folder/10.jpg" alt="그림10"></div>
-  		<div><img src="source/unfold_folder/11.jpg" alt="그림11"></div>
-  		<div><img src="source/unfold_folder/12.jpg" alt="그림12"></div>
-  		<div><img src="source/unfold_folder/13.jpg" alt="그림13"></div>
-  		<div><img src="source/unfold_folder/14.jpg" alt="그림14"></div>
-  		<div><img src="source/unfold_folder/15.jpg" alt="그림15"></div>
-  		<div><img src="source/unfold_folder/16.jpg" alt="그림16"></div>
-  		<div><img src="source/unfold_folder/17.jpg" alt="그림17"></div>
-  	</div>
-  </div>
-  <div id="profiling">사건 프로파일링</div>
-  <div id="map1" style="width:1300px;height:900px;"></div>
-  <div id="mapSub">[ 1999년 2월 13일, 송혜희 양 실종 사건 상황도 ]</div>
-  <object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000"
+
+  <div id="container">
+    <div id="lft_nav_menu">
+      <dl>
+        <dt id="title_1" style="font-weight: bolder; text-align: center; border-bottom: 0.1px solid #ffffff; color:#ffffff;">1. 송혜희 양 실종 사건</dt>
+        <dt id="introduce" class="summary">&nbsp&nbspI. 도입</dt>
+        <dt id="develop" class="summary">&nbsp&nbspII. 전개</dt>
+        <dt id="analysis" class="summary">&nbsp&nbspIII. 분석</dt>
+        <dt id="analysis_1" class="summary">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp1) 프로파일링 맵</dt>
+        <dt id="analysis_2" class="summary">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp2) MISSING</dt>
+        <dt id="analysis_3" class="summary">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp3) 수사 과정</dt>
+        <dt id="analysis_4" class="summary">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp4) 또다른 분석</dt>
+        <dt id="doubt" class="summary">&nbsp&nbspIV. 의혹</dt>
+        <dt id="now" class="summary">&nbsp&nbspV. 결말</dt>
+      </dl>
+    </div>
+    <div id="container_contents">
+      <br><br><br><br><br><br><br><br><br><br><br>
+      <p id="entry">공부하고 올게요.</p>
+      <div id="title">송혜희 양 실종 사건</div>
+      <div id="a1">1999년 2월 13일 PM 10:00 경 당시 고등학생이던 송혜희(17) 양이 실종된</div>
+      <div id="a2">사건으로 2014년 2월 공소시효가 만료되 현재까지도 <font color=#ff3333;>영구 미제 사건</font>으로 남아있다.</div>
+      <div id="a3">지금도 가끔 ‘실종된 송혜희 좀 찾아주세요!’라는 현수막을 볼 수 있을 정도로</div>
+      <div id="a4">실종자의 아버지는 자신의 딸을 찾는 데에 여념이 없으시다. </div>
+      <img src="source/fieldPicture.jpg" id="field">
+
+      <div id="start">
+        <span id="list2"></span>
+        <svg id="class_line" width="46vw" height="10"><line x1="0" y1="0" x2="1400" y2="0" stroke="white" stroke-width="0.5"></svg>
+        <h1>사건 일지</h1>
+        <div class="home__slider">
+  	      <div class="bxslider">
+  		     <div><img src="source/unfold_folder/1.jpg" alt="그림1"></div>
+  		     <div><img src="source/unfold_folder/2.jpg" alt="그림2"></div>
+  		     <div><img src="source/unfold_folder/3.jpg" alt="그림3"></div>
+  		     <div><img src="source/unfold_folder/4.jpg" alt="그림4"></div>
+  		     <div><img src="source/unfold_folder/5.jpg" alt="그림5"></div>
+  		     <div><img src="source/unfold_folder/6.jpg" alt="그림6"></div>
+  		     <div><img src="source/unfold_folder/7.jpg" alt="그림7"></div>
+  		     <div><img src="source/unfold_folder/8.jpg" alt="그림8"></div>
+  		     <div><img src="source/unfold_folder/9.jpg" alt="그림9"></div>
+  		     <div><img src="source/unfold_folder/10.jpg" alt="그림10"></div>
+  		     <div><img src="source/unfold_folder/11.jpg" alt="그림11"></div>
+  		     <div><img src="source/unfold_folder/12.jpg" alt="그림12"></div>
+  		     <div><img src="source/unfold_folder/13.jpg" alt="그림13"></div>
+  		     <div><img src="source/unfold_folder/14.jpg" alt="그림14"></div>
+  		     <div><img src="source/unfold_folder/15.jpg" alt="그림15"></div>
+  		     <div><img src="source/unfold_folder/16.jpg" alt="그림16"></div>
+  		     <div><img src="source/unfold_folder/17.jpg" alt="그림17"></div>
+  	      </div>
+        </div>
+        <span id="list2_5"></span>
+        <svg id="class_line" width="46vw" height="10"><line x1="0" y1="0" x2="1400" y2="0" stroke="white" stroke-width="0.5"></svg>
+        <h1 id="list3">사건 분석</h1>
+        <div id="map1" style="width:46vw;height:30vw;"></div>
+        <p style="text-align:center;">[ 1999년 2월 13일, 송혜희 양 실종 사건 상황도 ]</p>
+        <br>
+        <object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000"
 				codebase="http://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=10,0,0,0"
-				name="daumFlashTarget" width="1300" height="750" id="daumFlashTarget" style="visibility: visible;">
-		<param name="classid" value="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000">
-		<param name="movie" value="https://ssl.daumcdn.net/dmaps/apis/roadview2.0/RoadViewLite_rebrand.swf?v=1559750082357">
-		<param name="src" value="https://ssl.daumcdn.net/dmaps/apis/roadview2.0/RoadViewLite_rebrand.swf?v=1559750082357">
-		<param name="allowScriptAccess" value="always">
-		<param name="wmode" value="opaque">
-		<param name="bgcolor" value="#000000">
-		<param name="flashvars" value=    "serviceName=roadviewLite&bShowRedirectionButton=false&disableSmartJump=false&caption=%EA%B2%BD%EA%B8%B0%20%ED%8F%89%ED%83%9D%EC%8B%9C%20%EB%8F%84%EC%9D%BC%EB%8F%99&width=500&height=350&pan=116
-&tilt=31&panoX=524635&panoY=987000&panoId=1103000538
-&zoom=0&hideDaumLogo=false&storeId=">
-		<embed src="https://ssl.daumcdn.net/dmaps/apis/roadview2.0/RoadViewLite_rebrand.swf?v=1559750082357" loop="false" menu="false" quality="best" bgcolor="#000000" width="1300" height="750"
-					 align="middle" allowScriptAccess="always" allowFullScreen="false" type="application/x-shockwave-flash"
-					 pluginspage="http://www.macromedia.com/go/getflashplayer" flashvars=    "serviceName=roadviewLite&bShowRedirectionButton=false&disableSmartJump=false&caption=%EA%B2%BD%EA%B8%B0%20%ED%8F%89%ED%83%9D%EC%8B%9C%20%EB%8F%84%EC%9D%BC%EB%8F%99&width=500&height=350&pan=116
-&tilt=31&panoX=524635&panoY=987000&panoId=1103000538
-&zoom=0&hideDaumLogo=false&storeId=" wmode="opaque"></embed>
-  </object>
-  <div id="roadview_sub">[ 실종 당시 지역의 로드뷰 ]</div>
-  <div id="dP_missing">MISSING</div>
-  <div id="dP_headline">실종된 송혜희 좀 찾아주세요!!</div>
-  <img src="source/dP_picture.png" id="dP_headline_picture">
-  <span id="dP_headline_contents_1"><font color=#ff33333;>성명</font> : 송혜희(여, 당시 만 17세)<br><font color=#ff33333;>실종 일자</font> : 1999년 2월 13일 pm 10:00경<br><font color=#ff33333;>실종 장소</font> : 경기도 평택시 도일동 하리 마을 근처</span>
-  <span id="dP_headline_contents_2"><font color=#ff33333;>신체 특징</font> : 신장 163cm, 얼굴이 둥글고 검은 피부<br><font color=#ff33333;>착의 사항</font> : 흰 블라우스, 빨간 조끼, 파란색 코트<br><font color=#ff33333;>실종 경위</font> : 친구를 만나고 귀가하던 중 도일동 하리 입구에서 오후 10시경 버스에서 내린 후 실종됨</span>
-  <span id="dP_headline_picture_sub">실종 당시 모습&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp현재 모습(추정)</span>
-  <div id="dP_police">경찰의 수사</div>
-  <div id="dP_police_contents">
-  <ui>
-  <li>경찰은 수상한 이 남성을 송 양의 <font color=#ff33333;>최종 목격자이자 납치범</font>일 수 있다고 판단, 남자의 &nbsp&nbsp&nbsp&nbsp행적을 뒤쫓았다. 주변 마을을 샅샅이 찾고 일대 성매매 업소까지 수색했지만 끝내 &nbsp&nbsp&nbsp&nbsp찾을 수 없었다.
-  <li>당시에는 화성 연쇄살인 사건 이후라 최첨단 수사법에 이제 막 열을 올리던 <br>&nbsp&nbsp&nbsp&nbsp시기였으나 그녀가 살던 동네는 워낙 <font color=#ff33333;>낙후된 지역</font>이여서 CCTV가 없었고 집으로 &nbsp&nbsp&nbsp&nbsp가는 길목은 인적도 드물고 가로등이 없어 어둡고 좁은 골목길이였다.
-  <li>그래서 수많은 인원을 투입해 논밭, 갈대숲, 하수구, 산 등 인근을 샅샅이 <br>&nbsp&nbsp&nbsp&nbsp수색해보았지만 실마리는 찾을 수 없었다. 때마침 사건 발생일이 설날 사흘 <br>&nbsp&nbsp&nbsp&nbsp전이였다는 사실에 착안해 설을 보내기 위해 귀성한 전입자일 수 있다는 가능성에 &nbsp&nbsp&nbsp&nbsp무게를 두고 수사망을 넓혀 조사해보았지만 <font color=#ff33333;>결과는 똑같았다.</font>
-  </li>
-  </ui>
-  </div>
-  <img src="source/police.png" id="dP_police_picture">
-  <div id="dP_identity">남자의 정체</div>
-  <div id="dP_identity_contents">
-  <ui>
-  <li>당시 버스기사는 송 양과 합승하던 남자에 대해 이렇게 진술했다.
-  <li><font color=#ff33333;>30대</font> 정도로 보이는 남자였다.
-  <li>오리털 파카에 등산화를 쓰고 있었다.
-  <li>하지만 모자를 푹 눌러써서 얼굴을 확인하진 못했다.
-  <li><font color=#ff33333;>평택 시내</font>에서 버스를 탔다.
-  <li>이 동네 사람이 아닌 것 같아서 ‘어디를 가느냐’고 물었더니<br> &nbsp&nbsp&nbsp&nbsp<font color=#ff33333;>‘도일동 하리부락’</font>이라고 대답했다.
-  <li>몸에서 술냄새를 풍겼다.
-  <li>버스에서 내린 후 도로를 건너지않고 지하도로 향했다. <font color=#ff33333;>하지만 도로든 지하도든<br>&nbsp&nbsp&nbsp&nbsp 하리마을 방향인건 마찬가지였다.</font>
-  <li>서정리까지 갔는 데도 안내리고 <font color=#ff33333;>다시 하리 입구로 와 송 양과 같이 하차.</font>
-  </li>
-  </ui>
-  </div>
-  <img src="source/man.png" id="dP_identity_picture">
-  <div id="dP_relation">또 다른 사건</div>
-  <div id="dP_headline_2">단일 사건이 아닌 <font color=#ff33333;>연쇄 사건</font> 중 하나!</div>
-  <div id="map2" style="width:1300px;height:900px;"></div>
-  <div id="mapSub2">[ 송혜희 양 실종 사건과 평택 부녀자 살인 사건의 상황도 ]</div>
-  <div id="dP_incident_2">평택 부녀자 살인 사건</div>
-  <div id="dP_incident_2_contents">
-  <ui>
-    <li>발생일 : 2002년 9월 26일
-    <li>발생 장소 : <font color=#ff33333;>경기도 평택시 도일동 하리 마을 입구 버스 정류장</font>
-    <li>피해자 : 전 모씨(42)
-    <li>발견일 : 2003년 2월 15일
-    <li>발견 장소 : 버스 정류장 인근 농경지
-    <li>실종된지 141여 일만에 변사체로 발견됨
-  </li>
-  </ui>
-  </div>
-  <img src="source/incident2.png" id="dP_incident_2_picture">
-  <div id="dP_ending">결&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp론</div>
-  <div id="dP_ending_contents">
-  <ol>
-    <li>두 사건 모두 <font color=#ff33333;>정확히 같은 위치</font>에서 발생하였다.
-    <li>피해 여성 모두 165~170 대의 큰 키였고 청바지를 착용, <font color=#ff33333;>혼자 밤에 귀가</font>하려 했다.
-    <li>귀가길은 <font color=#ff33333;>인적이 드물고</font> 논으로 이어진 농로와 농지 주변이였다.
-    <li>혼자 귀가하는 여성을 범행 대상으로 삼고 인적이 드문 곳에서 이루어 진 점으로 보아<br> 용의자는 <font color=#ff33333;>이 지역의 지리를 꿰뚫고 있다.</font>
-  </li>
-  </ol>
-  </div>
-  <div id="suspicion">의혹</div>
-  <div id="sus_1">1. 정말 단순 가출인가?</div>
-  <div id="sus_1_contents">
-  5년이 흐른 뒤인 2004년에 이르자 경찰은 송 양이 스스로 잠적했을 가능성에 무게를 뒀다. 가족은 그럴 리 없다고 극구 부인했지만 경찰은 여기에라도 희망을 건다.<br>
-  2004년 2월, 부산광역시에서 송 양의 명의로 인터넷이 접속된 것을 포착한 경찰은 급히 부산으로 내려가 잠복 수사를 한다. 다시 접속 흔적이 나타나자 해당 피시방을 급습해 확인했지만 접속자는 송 양이 아닌 어느 젊은 남녀였다. 알고보니 이들은 송 양의 <br>아버지가 딸을 찾기 위해 붙여둔 전단지에 있던 송 양의 주민등록번호를 도용한 <br>것으로 드러났다.
-  </div>
-  <img src="source/excape.png" id="sus_1_picture">
-  <div id="sus_2">2. 버스 기사가 범인?</div>
-  <div id="sus_2_contents">
-  애초에 이 동네 사람이 아닌것같아 말을 붙였다는 것이 어색하고 하필 30대 남성이 <br>‘하리부락’이라 대답한 점도 수상하다고 여기는 의견도 있다.
-  스마트폰도 없던 <br>99년도에 외지인이 술에 취한 채 대중교통을 통해 구체적 지명을 언급하는건 앞뒤가 <br>맞지않고 평소 늦은 시간에 혼자 귀가하는 실종자를 눈여겨 본 버스기사가 범행을 <br>감추기 위해 30대 남성이라는 가상의 인물을 만들어냈다는 의견이다.
-  </div>
-  <img src="source/bus.png" id="sus_2_picture">
-  <div id="sus_3">3. 장기 밀매 조직의 희생양이 됬다?</div>
-  <div id="sus_3_contents">
-  아마 장기 밀매 조직에 의해 희생됬을 수도 있다는 의혹이다. 정상적인 장기 이식을 <br>위해선 국립장기이식관리센터에 등록해야하는데 이식 대기자는 넘쳐나는데 정작 <br>이식이 이루어지는 경우가 적다는 것이다. 언제 차례가 돌아올지 기약이 없고 운에 <br>기대하다가는 목숨이 위태로울 수 있다.
-  <br>장기 이식이 필요한 환자의 경우 해외에 나가 원정 장기매매를 하는 경우도 있지만 <br>여러 가지 문제를 우려해 국내에서 찾을 수 있다. 이때 ‘장기 밀매업자’들과 접촉에 <br>나서는데 그러한 수요를 ‘납치’ 등을 통해 조달할 수도 있다는 것이다.
-  </div>
-  <img src="source/cancer.png" id="sus_3_picture">
-  <div id="ending">결말</div>
-  <video id="end_video" src="source/presentv.mp4" type="video/mp4" controls></video>
-  <div id="videoSub">* 출처 : 미디어오늘</div>
-  <div id="end_headline">아빠만 잘 살아서 미안해.</div>
-  <img src="source/quote1.png" id="end_quote_1">
-  <img src="source/quote2.png" id="end_quote_2">
-  <div id="end_contents">
-    전교 1~2등을 할 정도로 영특했고 성실해서 가족의 자랑거리였던 딸.<br><br>
+				name="daumFlashTarget" width="46vw" height="27vw" id="daumFlashTarget" style="visibility: visible;">
+		    <param name="classid" value="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000">
+		    <param name="movie" value="https://ssl.daumcdn.net/dmaps/apis/roadview2.0/RoadViewLite_rebrand.swf?v=1559750082357">
+		    <param name="src" value="https://ssl.daumcdn.net/dmaps/apis/roadview2.0/RoadViewLite_rebrand.swf?v=1559750082357">
+		    <param name="allowScriptAccess" value="always">
+		    <param name="wmode" value="opaque">
+		    <param name="bgcolor" value="#000000">
+		    <param name="flashvars" value=    "serviceName=roadviewLite&bShowRedirectionButton=false&disableSmartJump=false&caption=%EA%B2%BD%EA%B8%B0%20%ED%8F%89%ED%83%9D%EC%8B%9C%20%EB%8F%84%EC%9D%BC%EB%8F%99&width=500&height=350&pan=116&tilt=31&panoX=524635&panoY=987000&panoId=1103000538&zoom=0&hideDaumLogo=false&storeId=">
+		    <embed src="https://ssl.daumcdn.net/dmaps/apis/roadview2.0/RoadViewLite_rebrand.swf?v=1559750082357" loop="false" menu="false" quality="best" bgcolor="#000000" style="width:46vw; height:27vw;"
+				align="middle" allowScriptAccess="always" allowFullScreen="false" type="application/x-shockwave-flash"
+				pluginspage="http://www.macromedia.com/go/getflashplayer" flashvars=    "serviceName=roadviewLite&bShowRedirectionButton=false&disableSmartJump=false&caption=%EA%B2%BD%EA%B8%B0%20%ED%8F%89%ED%83%9D%EC%8B%9C%20%EB%8F%84%EC%9D%BC%EB%8F%99&width=500&height=350&pan=116&tilt=31&panoX=524635&panoY=987000&panoId=1103000538&zoom=0&hideDaumLogo=false&storeId=" wmode="opaque"></embed>
+        </object>
+        <p style="text-align:center;">[ 실종 당시 지역의 로드뷰 ]</p>
+        <br id="list4"><br><br>
+        <svg id="class_line" width="46vw" height="10"><line x1="0" y1="0" x2="1400" y2="0" stroke="white" stroke-width="0.5"></svg>
+        <h1>MISSING</h1>
+        <h2><u>실종된 송혜희 양을 찾습니다!!</u></h2>
+        <img src="source/dP_picture.png" id="dP_headline_picture">
+        <p style="text-align:right;">실종 당시 모습과 현재 모습(추정)<p>
+        <dl id="dP_headline_contents">
+          <dt><font color=#ff33333;>성명</font> : 송혜희(여, 당시 만 17세)</dt>
+          <dt><font color=#ff33333;>실종 일자</font> : 1999년 2월 13일 pm 10:00경</dt>
+          <dt><font color=#ff33333;>실종 장소</font> : 경기도 평택시 도일동 하리 마을 근처</dt>
+          <dt><font color=#ff33333;>신체 특징</font> : 신장 163cm, 얼굴이 둥글고 검은 피부</dt>
+          <dt><font color=#ff33333;>착의 사항</font> : 흰 블라우스, 빨간 조끼, 파란색 코트</dt>
+          <dt><font color=#ff33333;>실종 경위</font> : 친구를 만나고 귀가하던 중 도일동 하리 입구에서 오후 10시경 버스에서 내린 후 실종됨</dt>
+        </dl>
+        <br id="list5"><br><br>
+        <svg id="class_line" width="46vw" height="10"><line x1="0" y1="0" x2="1400" y2="0" stroke="white" stroke-width="0.5"></svg>
+        <h1>수사 과정</h1>
+        <h2>경찰의 수사</h2>
+        <p>경찰은 수상한 이 남성을 송 양의 <font color=#ff33333;>최종 목격자이자 납치범</font>일 수 있다고 판단, 남자의 행적을 뒤쫓았다. 주변 마을을 샅샅이 찾고 일대 성매매 업소까지 수색했지만 끝내 찾을 수 없었다. <br><br>당시에는 화성 연쇄살인 사건 이후라 최첨단 수사법에 이제 막 열을 올리던 시기였으나 그녀가 살던 동네는 워낙 <font color=#ff33333;>낙후된 지역</font>이여서 CCTV가 없었고 집으로 가는 길목은 인적도 드물고 가로등이 없어 어둡고 좁은 골목길이였다. 그래서 수많은 인원을 투입해 논밭, 갈대숲, 하수구, 산 등 인근을 샅샅이 수색해보았지만 실마리는 찾을 수 없었다. <br><br>때마침 사건 발생일이 설날 사흘 전이였다는 사실에 착안해 설을 보내기 위해 귀성한 전입자일 수 있다는 가능성에 무게를 두고 수사망을 넓혀 조사해보았지만 <font color=#ff33333;>결과는 똑같았다.</font></p>
+        <br>
+        <h2>남자의 정체</h2>
+          당시 버스기사는 송 양과 합승하던 남자에 대해 이렇게 진술했다.<br>
+            <ul>
+              <li><font color=#ff33333;>30대</font> 정도로 보이는 남자였다.
+              <li>오리털 파카에 등산화를 쓰고 있었다.
+              <li>하지만 모자를 푹 눌러써서 얼굴을 확인하진 못했다.
+              <li><font color=#ff33333;>평택 시내</font>에서 버스를 탔다.
+              <li>이 동네 사람이 아닌 것 같아서 ‘어디를 가느냐’고 물었더니 <font color=#ff33333;>‘도일동 하리부락’</font>이라고 대답했다.
+              <li>몸에서 술냄새를 풍겼다.
+              <li>버스에서 내린 후 도로를 건너지않고 지하도로 향했다. <font color=#ff33333;>하지만 도로든 지하도든 하리마을 방향인건 마찬가지였다.</font>
+              <li>서정리까지 갔는 데도 안내리고 <font color=#ff33333;>다시 하리 입구로 와 송 양과 같이 하차.</font>
+              </li>
+            </ul>
+          <br id="list6"><br><br>
+          <svg id="class_line" width="46vw" height="10"><line x1="0" y1="0" x2="1400" y2="0" stroke="white" stroke-width="0.5"></svg>
+          <h1>또 다른 분석</h1>
+          <h2>단일 사건이 아닌 <font color=#ff33333;>연쇄 사건</font> 중 하나!</h2>
+          <div id="map2" style="width:46vw;height:30vw;"></div>
+          <p style="text-align:center;">[ '송혜희 양 실종 사건'과 '평택 부녀자 살인 사건'의 상황도 ]</p>
+          <br>
+          <h2>평택 부녀자 살인 사건</h2>
+          <ul>
+            <li>발생일 : 2002년 9월 26일
+            <li>발생 장소 : <font color=#ff33333;>경기도 평택시 도일동 하리 마을 입구 버스 정류장</font>
+            <li>피해자 : 전 모씨(42)
+            <li>발견일 : 2003년 2월 15일
+            <li>발견 장소 : 버스 정류장 인근 농경지
+            <li>실종된지 141여 일만에 변사체로 발견됨
+            </li>
+          </ul>
+          <br>
+          <h2>결론</h2>
+          <ul>
+            <li>두 사건 모두 <font color=#ff33333;>정확히 같은 위치</font>에서 발생하였다.
+            <li>피해 여성 모두 165~170 대의 큰 키였고 청바지를 착용, <font color=#ff33333;>혼자 밤에 귀가</font>하려 했다.
+            <li>귀가길은 <font color=#ff33333;>인적이 드물고</font> 논으로 이어진 농로와 농지 주변이였다.
+            <li>발견일 : 2003년 2월 15일
+            <li>혼자 귀가하는 여성을 범행 대상으로 삼고 인적이 드문 곳에서 이루어 진 점으로 보아<br> 용의자는 <font color=#ff33333;>이 지역의 지리를 꿰뚫고 있다.</font>
+            </li>
+          </ul>
+          <br id="list7"><br><br>
+          <svg id="class_line" width="46vw" height="10"><line x1="0" y1="0" x2="1400" y2="0" stroke="white" stroke-width="0.5"></svg>
+          <h1>의혹</h1>
+          <h2>1. 정말 단순 가출인가?</h2>
+          <p>5년이 흐른 뒤인 2004년에 이르자 경찰은 송 양이 스스로 잠적했을 가능성에 무게를 뒀다. 가족은 그럴 리 없다고 극구 부인했지만 경찰은 여기에라도 희망을 건다.<br><br>2004년 2월, 부산광역시에서 송 양의 명의로 인터넷이 접속된 것을 포착한 경찰은 급히 부산으로 내려가 잠복 수사를 한다. 다시 접속 흔적이 나타나자 해당 피시방을 급습해 확인했지만 접속자는 송 양이 아닌 어느 젊은 남녀였다. 알고보니 이들은 송 양의 아버지가 딸을 찾기 위해 붙여둔 전단지에 있던 송 양의 주민등록번호를 도용한 것으로 드러났다.</p>
+          <br>
+          <h2>2. 버스 기사가 범인?</h2>
+          <p>애초에 이 동네 사람이 아닌 것 같아 말을 붙였다는 것이 어색하고 하필 30대 남성이 ‘하리부락’이라 대답한 점도 수상하다고 여기는 의견도 있다. 스마트폰도 없던 99년도에 외지인이 술에 취한 채 대중교통을 통해 구체적 지명을 언급하는건 앞뒤가 <맞지않고 평소 늦은 시간에 혼자 귀가하는 실종자를 눈여겨 본 버스기사가 범행을 감추기 위해 30대 남성이라는 가상의 인물을 만들어냈다는 의견이다.</p>
+          <br>
+          <h2>3. 장기 밀매 조직의 희생양이 됬다?</h2>
+          <p>아마 장기 밀매 조직에 의해 희생됬을 수도 있다는 의혹이다. 정상적인 장기 이식을 위해선 국립장기이식관리센터에 등록해야하는데 이식 대기자는 넘쳐나는데 정작 이식이 이루어지는 경우가 적다는 것이다. 언제 차례가 돌아올지 기약이 없고 운에 기대하다가는 목숨이 위태로울 수 있다. 장기 이식이 필요한 환자의 경우 해외에 나가 원정 장기매매를 하는 경우도 있지만 여러 가지 문제를 우려해 국내에서 찾을 수 있다. 이때 ‘장기 밀매업자’들과 접촉에 나서는데 그러한 수요를 ‘납치’ 등을 통해 조달할 수도 있다는 것이다.</p>
+          <br id="list8"><br><br>
+          <svg id="class_line" width="46vw" height="10"><line x1="0" y1="0" x2="1400" y2="0" stroke="white" stroke-width="0.5"></svg>
+          <h1>결말</h1>
+          <video id="end_video" src="source/presentv.mp4" type="video/mp4" controls></video>
+          <p style="text-align:right;">* 출처 : 미디어오늘</p>
+          <br><br>
+          <div id="end_headline">"아빠만 잘 살아서 미안해."</div>
+          <br><br>
+          <p>전교 1~2등을 할 정도로 영특했고 성실해서 가족의 자랑거리였던 딸.<br><br>실종된 딸을 찾아다닌 거리는 무려 72만㎞로 지구 18바퀴를 돈 거리와 같다. 지금까지 쓴 전단만 해도 대략 300만 장, 현수막 2500개에 달한다. 과거 2차례의 허리 수술과 뇌경색 후유증으로 거동이 온전치 못하지만 딸을 찾는 전단과 현수막 제작 비용을 보태기 위해 하루종일 폐지를 모으고 계신다.<br><br>송 양의 어머니는 딸을 찾지 못했다는 절망감에 우울증을 앓아 농약 자살로 생을 마감하셨지만 아버지는 현재까지도 희망의 끈을 놓지않으며 실종된 딸을 찾고야 말겠다는 일념 하나로 살아가시고 있다.</p>
+          <br><br><br>
+          <div id="end_final">
+            <br>
+            우리 혜희가 실종된지 벌써 17년이 지났습니다.<br>
+            심장을 도려내는 아픔을 견디며 지난 17년간 혜희를 찾기 위해 노력했습니다.<br><br>
 
-실종된 딸을 찾아다닌 거리는 무려 72만㎞로 지구 18바퀴를 돈 거리와 같다. 지금까지 쓴 <br>전단만 해도 대략
-300만장, 현수막 2500개에 달한다. 과거 2차례의 허리 수술과 뇌경색 <br>후유증으로 거동이 온전치 못하지만 딸을 찾는 전단과 현수막 제작 비용을 보태기 위해 <br>하루종일 폐지를 모으고 계신다.<br><br>
+            1999년 2월 송탄여고 2학년에 다니던 어느날 밤, 10시 10분 경에 도일리 막차에서<br>
+            30대 초반의 남자와 함께 내렸다는 버스 기사의 말을 듣고 실종 신고를 하고<br>
+            3년 여 간 경찰과 함께 찾아보았지만 행방을 찾을 수 없었습니다.<br><br>
 
-송 양의 어머니는 딸을 찾지 못했다는 절망감에 우울증을 앓아 농약 자살로 생을 마감했지만 아버지는
-현재까지도 희망의 끈을 놓지않으며 실종된 딸을 찾고야 말겠다는 일념 하나로 <br>살아가시고 있다.
+            우리 부부는 생업도 포기한 채 혜희를 찾기 위해 미친듯이 전국을 돌아다녔습니다.<br>
+            끝내 혜희 엄마는 아이를 잃은 슬픔을 견디지 못하고 심장병과 우울증에 시달리다<br>
+            우리 혜희를 꼭 찾아달라며 혜희의 실종전단지를 품에 안은 채 자신은 영혼이라도<br>
+            남아 우리 혜희를 찾겠다며 피를 토하듯 절규하면서 저 세상으로 갔습니다.<br><br>
+
+            혼자 남게된 저도 아내의 뒤를 따르려 했으나 혜희를 꼭 찾아달라는 아내의 절규를<br>
+            잊을 수 없고 큰 딸 마저 버려두고 갈 수가 없었기에 구차하게 살아가고 있습니다.<br><br>
+
+            자식잃은 부모의 비통한 심정을 헤아려주시고 주변을 한번 둘러보아 주셔서<br>
+            우리 혜희가 있는지 눈여겨 봐주시면 감사하겠습니다.<br>
+            혜희를 찾는데 도움을 주신다면 그 은혜를 잊지 않고 심장을 팔아서라도<br> 그 은혜를
+            꼭 갚겠습니다.<br><br>
+
+            <i>- 송혜희 양이 실종된지 17년이 되던 2016년, 아버지가 전단지에 남긴 글</i>
+          </div>
+          <br><br><br>
+          <div id="end_report">
+            <u>경찰청 실종아동찾기센터</u><br>
+            182 및 112<br><br>
+
+            <u>평택경찰서 실종수사전담팀</u><br>
+            031) 8053-0188, 0288<br><br>
+
+            <u>전국 미아·실종가족 찾기 시민의 모임</u><br>
+            02) 963-1256 / 016-367-0513<br><br>
+
+            <u>실종자 가족 후원계좌</u><br>
+            농협 205030-56-194211 송길용
+          </div>
+        </div>
+    </div>
   </div>
-  <div id="end_final">
-    <br>
-    우리 혜희가 실종된지 벌써 17년이 지났습니다.<br>
-    심장을 도려내는 아픔을 견디며 지난 17년간 혜희를 찾기 위해 노력했습니다.<br><br>
 
-    1999년 2월 송탄여고 2학년에 다니던 어느날 밤, 10시 10분 경에 도일리 막차에서<br>
-    30대 초반의 남자와 함께 내렸다는 버스 기사의 말을 듣고 실종 신고를 하고<br>
-    3년 여 간 경찰과 함께 찾아보았지만 행방을 찾을 수 없었습니다.<br><br>
 
-    우리 부부는 생업도 포기한 채 혜희를 찾기 위해 미친듯이 전국을 돌아다녔습니다.<br>
-    끝내 혜희 엄마는 아이를 잃은 슬픔을 견디지 못하고 심장병과 우울증에 시달리다<br>
-    우리 혜희를 꼭 찾아달라며 혜희의 실종전단지를 품에 안은 채 자신은 영혼이라도<br>
-    남아 우리 혜희를 찾겠다며 피를 토하듯 절규하면서 저 세상으로 갔습니다.<br><br>
-
-    혼자 남게된 저도 아내의 뒤를 따르려 했으나 혜희를 꼭 찾아달라는 아내의 절규를<br>
-    잊을 수 없고 큰 딸 마저 버려두고 갈 수가 없었기에 구차하게 살아가고 있습니다.<br><br>
-
-    자식잃은 부모의 비통한 심정을 헤아려주시고 주변을 한번 둘러보아 주셔서<br>
-    우리 혜희가 있는지 눈여겨 봐주시면 감사하겠습니다.<br>
-    혜희를 찾는데 도움을 주신다면 그 은혜를 잊지 않고 심장을 팔아서라도<br> 그 은혜를
-    꼭 갚겠습니다.<br><br>
-
-    <i>- 송혜희 양이 실종된지 17년이 되던 2016년, 아버지가 전단지에 남긴 글</i>
-  </div>
-  <div id="end_report">
-    <u>경찰청 실종아동찾기센터</u><br>
-    182 및 112<br><br>
-
-    <u>평택경찰서 실종수사전담팀</u><br>
-    031) 8053-0188, 0288<br><br>
-
-    <u>전국 미아·실종가족 찾기 시민의 모임</u><br>
-    02) 963-1256 / 016-367-0513<br><br>
-
-    <u>실종자 가족 후원계좌</u><br>
-    농협 205030-56-194211 송길용
-  </div>
 
 
 
@@ -253,8 +260,10 @@ var mapContainer1 = document.getElementById('map1'), // 지도를 표시할 div
 	        mapTypeId : kakao.maps.MapTypeId.HYBRID // 지도종류
 	    };
 	// 지도를 생성한다
+
 	var map1 = new kakao.maps.Map(mapContainer1, mapOption1);
 	// 지도에 확대 축소 컨트롤을 생성한다
+
     var positions = [
 		    {
                 content: '<div id="label2">1999년 2월 13일, PM 05:30<br>경기도 평택시 서정동 경기대로 1376<br>학교가 끝나고 남자친구를 만나기 위해 송탄동 서정리로 향함</div>',
@@ -272,15 +281,28 @@ var mapContainer1 = document.getElementById('map1'), // 지도를 표시할 div
                 content: '<div id="label5">경기도 평택시 송탄동 하리 마을<br>송 양의 거처</div>',
 		        latlng: new daum.maps.LatLng(37.05189, 127.10683)
 		    },
+        {
+              content: '<div id="label5">경기도 평택시 송탄동 하리 마을<br>송 양의 거처</div>',
+          latlng: new daum.maps.LatLng(37.05189, 127.10683)
+        },
       ]
+
+      var markerImageUrl = 'https://ifh.cc/g/zG8yd.png', // 마커이미지의 주소입니다
+          markerImageSize = new kakao.maps.Size(40, 40), // 마커이미지의 크기입니다
+          markerImageOptions = {offset: new kakao.maps.Point(18, 40)}; // 마커0이미지의 옵션입니다. 마커의 좌표와 일치시킬 이미지 안에서의 좌표를 설정합니다.
+
+      // 마커의 이미지정보를 가지고 있는 마커이미지를 생성합니다
+      var markerImage = new kakao.maps.MarkerImage(markerImageUrl, markerImageSize, markerImageOptions),
+          markerPosition = new kakao.maps.LatLng(); // 마커가 표시될 위치입니다
 
     for (var i = 0; i < positions.length; i ++) {
 		    // 마커를 생성합니다
 		    var marker = new daum.maps.Marker({
 		        map: map1, // 마커를 표시할 지도
 		        position: positions[i].latlng, // 마커의 위치
-    			image: markerImage // 마커이미지 설정
+    			  image: markerImage // 마커이미지 설정
 		    });
+
 
 		    // 마커에 표시할 인포윈도우를 생성합니다
 		    var infowindow = new daum.maps.InfoWindow({
@@ -461,16 +483,8 @@ customOverlay.setMap(map1);
 customOverlay2.setMap(map1);
 customOverlay3.setMap(map1);
 
-var imageSrc = 'http://ifh.cc/g/zG8yd.png', // 마커이미지의 주소입니다
-    imageSize = new kakao.maps.Size(40, 40), // 마커이미지의 크기입니다
-    imageOption = {offset: new kakao.maps.Point(21, 40)}; // 마커0이미지의 옵션입니다. 마커의 좌표와 일치시킬 이미지 안에서의 좌표를 설정합니다.
-
-
-// 마커의 이미지정보를 가지고 있는 마커이미지를 생성합니다
-var markerImage = new kakao.maps.MarkerImage(imageSrc, imageSize, imageOption),
-    markerPosition = new kakao.maps.LatLng(); // 마커가 표시될 위치입니다
-
 marker.setMap(map1);
+marker.setMap(map2);
 
 
 
@@ -517,7 +531,8 @@ var mapContainer2 = document.getElementById('map2'), // 지도를 표시할 div
       // 마커를 생성합니다
       var marker2 = new daum.maps.Marker({
           map: map2, // 마커를 표시할 지도
-          position: positions2[i].latlng // 마커의 위치
+          position: positions2[i].latlng, // 마커의 위치
+          image: markerImage // 마커이미지 설정
       });
 
       // 마커에 표시할 인포윈도우를 생성합니다
@@ -680,6 +695,22 @@ analysis.onmouseover = function()
   {analysis.style.cursor = "pointer";
   }
 
+analysis_1.onmouseover = function()
+  {analysis_1.style.cursor = "pointer";
+  }
+
+analysis_2.onmouseover = function()
+  {analysis_2.style.cursor = "pointer";
+  }
+
+analysis_3.onmouseover = function()
+  {analysis_3.style.cursor = "pointer";
+  }
+
+analysis_4.onmouseover = function()
+  {analysis_4.style.cursor = "pointer";
+  }
+
 doubt.onmouseover = function(){
   doubt.style.cursor = "pointer";
   }
@@ -689,28 +720,135 @@ now.onmouseover = function(){
   }
 
 topb.onclick = function(){
-window.scrollBy({ top: -13000, behavior: 'smooth' });
+window.scrollBy({ top: -14000, behavior: 'smooth' });
   }
+
+
+function resetSummary(){
+  var t = document.getElementsByClassName('summary');
+  for(var i=0; i<t.length; i++){
+    t[i].style.color = "#666";
+    t[i].style.borderBottom = "0.1px solid #666";
+  }
+}
+
+
+
 
 introduce.onclick = function(){
   document.getElementById('entry').scrollIntoView();
-  }
+  resetSummary();introduce.style.color = "#fff";
+}
 
 develop.onclick = function(){
-  document.getElementById('unfold').scrollIntoView();
-  }
+  document.getElementById('list2').scrollIntoView();
+  resetSummary();this.style.color = "#fff";
+}
 
 analysis.onclick = function(){
-  document.getElementById('profiling').scrollIntoView();
-  }
+  document.getElementById('list2_5').scrollIntoView();
+  resetSummary();this.style.color = "#fff";
+}
+
+analysis_1.onclick = function(){
+  document.getElementById('list3').scrollIntoView();
+  resetSummary();this.style.color = "#fff";
+}
+
+analysis_2.onclick = function(){
+  document.getElementById('list4').scrollIntoView();
+  resetSummary();this.style.color = "#fff";
+}
+
+analysis_3.onclick = function(){
+  document.getElementById('list5').scrollIntoView();
+  resetSummary();this.style.color = "#fff";
+}
+
+analysis_4.onclick = function(){
+  document.getElementById('list6').scrollIntoView();}
 
 doubt.onclick = function(){
-  document.getElementById('suspicion').scrollIntoView();
-  }
+  document.getElementById('list7').scrollIntoView();
+  resetSummary();this.style.color = "#fff";
+}
 
 now.onclick = function(){
-  document.getElementById('ending').scrollIntoView();
-  }
+  document.getElementById('list8').scrollIntoView();
+  resetSummary();this.style.color = "#fff";
+}
+
+window.onscroll = function(){
+    var t = document.documentElement.scrollTop + document.body.scrollTop;
+      if(t > 600){
+        resetSummary();introduce.style.color = "#fff";
+        introduce.style.borderBottom = "0.1px solid #fff";
+      }
+
+      if(t > 1600){
+        resetSummary();develop.style.color = "#fff";
+        develop.style.borderBottom = "0.1px solid #fff";
+      }
+
+      if(t > 2550){
+        resetSummary();analysis_1.style.color = "#fff";
+        analysis_1.style.borderBottom = "0.1px solid #fff";
+        analysis.style.color = "#fff";
+        analysis.style.borderBottom = "0.1px solid #fff";
+      }
+
+      if(t > 4179){
+        resetSummary();analysis_2.style.color = "#fff";
+        analysis_2.style.borderBottom = "0.1px solid #fff";
+        analysis.style.color = "#fff";
+        analysis.style.borderBottom = "0.1px solid #fff";
+      }
+
+      if(t > 5328){
+        resetSummary();analysis_3.style.color = "#fff";
+        analysis_3.style.borderBottom = "0.1px solid #fff";
+        analysis.style.color = "#fff";
+        analysis.style.borderBottom = "0.1px solid #fff";
+      }
+
+      if(t > 6551){
+        resetSummary();analysis_4.style.color = "#fff";
+        analysis_4.style.borderBottom = "0.1px solid #fff";
+        analysis.style.color = "#fff";
+        analysis.style.borderBottom = "0.1px solid #fff";
+      }
+
+      if(t > 8400){
+        resetSummary();doubt.style.color = "#fff";
+        doubt.style.borderBottom = "0.1px solid #fff";
+      }
+
+      if(t > 9465){
+        resetSummary();now.style.color = "#fff";
+        now.style.borderBottom = "0.1px solid #fff";
+      }
+
+
+
+
+
+
+    if(t>600){
+    title.style.animationPlayState = "running";
+    a1.style.animationPlayState = "running";
+    a2.style.animationPlayState = "running";
+    a3.style.animationPlayState = "running";
+    a4.style.animationPlayState = "running";
+    field.style.animationPlayState = "running";
+    }
+    if(t>10300){
+    end_headline.style.animationPlayState = "running";
+    }
+
+    monitor.innerHTML = t + "px";
+}
+
+
 </script>
 </body>
 </html>
