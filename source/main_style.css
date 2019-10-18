@@ -86,10 +86,10 @@ svg {top: 0px; position: fixed; z-index: 10; left:-8px;}
 			from, to {border-color: #cccccc}
 			50% {border-color: #000;}}
 
-#field{display: block; width: 4000px; overflow: hidden; height: 560px; left: 0px; top: 550px; position: relative; transition: all 1s; animation: move 40s linear forwards paused; z-index: -1; white-space: normal;}
+#field{display: block; width: 4000px; overflow: hidden; height: 560px; left: 0px; top: 550px; position: relative; transition: all 1s; animation: move 50s linear forwards paused; z-index: -1; white-space: normal;}
 	@keyframes move{
 		0%{left: 0px;}
-		100%{left: -2000px;}}
+		100%{left: -2700px;}}
 
 
 
